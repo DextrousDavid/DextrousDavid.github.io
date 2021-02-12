@@ -13,6 +13,7 @@ function calculate(){
         
         var oldNode = document.getElementById("result").childNodes[0];
         document.getElementById("result").replaceChild(document.createTextNode("Enter a positive number"), oldNode);
+        alert('Enter a Positive Number')
 
     }
     else{
